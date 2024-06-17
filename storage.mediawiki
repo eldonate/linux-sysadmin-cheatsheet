@@ -1,0 +1,7 @@
+=== Create Swap File ===
+swapoff -a #this will clear the swap and actually turn it off
+fallocate -l 3G /swapfile #this creates a file of 3GB to use it as swap
+chmod 600 /swapfile #set correct permisions
+mkswap /swapfile #set the swap file
+The we need to edit /etc/fstab to set the swapfile name
+swapon -a #turns the swap on again
