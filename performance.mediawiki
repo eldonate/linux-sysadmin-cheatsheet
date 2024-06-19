@@ -1,0 +1,4 @@
+=== ATOP ===
+====Analyze atop logs ====
+atopsar -r /var/log/atop/atop_20240614 -m -R 1
+-m stands for memory, -c for cpu etc.
