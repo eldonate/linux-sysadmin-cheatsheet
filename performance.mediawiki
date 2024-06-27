@@ -2,3 +2,6 @@
 ====Analyze atop logs ====
 atopsar -r /var/log/atop/atop_20240614 -m -R 1
 -m stands for memory, -c for cpu etc.
+=== Apache Tunning ===
+curl -sL https://raw.githubusercontent.com/richardforth/apache2buddy/master/apache2buddy.pl | perl
+Source: https://github.com/richardforth/apache2buddy
