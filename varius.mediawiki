@@ -1,0 +1,2 @@
+usr/bin/curl --connect-timeout 2 --ftp-create-dirs --netrc --retry 5 --silent --show-error --ftp-ssl -T "${db}_${MYDATE}backup.tgz" "ftp://db-backup.grserver.gr/${backuphost}/${MYDATE}/pgsql/"
+push files to server using curl throught FTP
