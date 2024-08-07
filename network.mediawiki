@@ -1,0 +1,2 @@
+cat /proc/sys/net/netfilter/nf_conntrack_count
+nf_conntrack_count: This specific file, /proc/sys/net/netfilter/nf_conntrack_count, shows the current number of entries in the connection tracking table. Essentially, it tells you how many connections are currently being tracked by the system.
